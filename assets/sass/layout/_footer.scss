@@ -1,0 +1,22 @@
+.footer {
+  background-color: $raising-black;
+  color: white;
+  font-size: $x-small;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 3em 2em 3em;
+}
+
+.footer__right--item {
+  list-style-type: none;
+  margin-right: 2em;
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__left {
+  padding-right: 3em;
+}

@@ -1,0 +1,68 @@
+.container {
+  margin: auto;
+}
+
+.header {
+  position: absolute;
+  margin-top: 5em;
+  width: 30%;
+}
+
+.bg-hero {
+  width: 100%;
+}
+
+.caracteristicas {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.grafico {
+  display: flex;
+  justify-content: center;
+}
+
+.grafico__text {
+  width: 30%;
+  margin-left: 60px;
+}
+
+.precios {
+  background-image: url('../images/bg-price.svg');
+  background-size: cover;
+  height: 800px;
+}
+
+.precios__title {
+  text-align: center;
+}
+
+.precios__title--precios {
+  color: white;
+  padding-top: 220px;
+  padding-bottom: 2em;
+}
+
+.tarjeta__free, .tarjeta__premium {
+  background-color: white;
+  margin-right: 1em;
+}
+
+.tarjetas__list {
+  font-size: $x-small;
+  padding-bottom: 115px;
+  padding-right: 30px;
+  display: inline-block;
+  background-color: white;
+}
+
+.tarjetas__title {
+  padding-left: 25px;
+}
+.tarjetas__list--premium {
+  font-size: $x-small;
+  padding-right: 90px;
+  padding-bottom: 28px;
+  display: inline-block;
+  background-color: white;
+}
