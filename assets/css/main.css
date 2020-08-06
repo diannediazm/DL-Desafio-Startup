@@ -416,8 +416,16 @@ h3 {
   background-color: #2AB7CA;
   border: 0px solid;
   color: #FFF;
+  font-weight: 700;
   padding-right: 1em;
   padding-left: 1em;
+}
+.nav__buttons--registro:hover {
+  background-color: #77D1DD;
+}
+.nav__buttons--registro:focus {
+  background-color: #AEACAF;
+  outline: none;
 }
 
 .toogle {
