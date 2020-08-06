@@ -13,6 +13,41 @@
     .nav__buttons {
       display: none !important;
     }
+    .toogle input[type="checkbox"], .fa-bars {
+      position: absolute;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      right: 0;
+      top: 0;
+      width: 48px;
+      height: 48px;
+    }
+    .toogle .fa-bars {
+      font-size: 48px;
+      pointer-events: none;
+    }
+    .toogle input[type="checkbox"] {
+      opacity: 0;
+    }
+    .toogle {
+      display: flex !important;
+      margin-left: auto !important;
+      position: relative;
+      min-height: 48px;
+    }
+    .toogle nav {
+      display: none;
+    }
+    .toogle input:checked ~ nav {
+      display: block;
+    }
+    .toogle input:checked ~ .fa-bars {
+      display: none;
+    }
+    .toogle input:not(:checked) {
+      display: none;
+    }
     .header {
       position: relative !important;
       margin-top: 1em !important;
