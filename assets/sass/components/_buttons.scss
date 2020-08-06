@@ -2,7 +2,16 @@
   background-color: $ball-blue;
   border: 0px solid;
   color: $white;
+  font-weight: $bold;
   padding: 0.5em 6em 0.5em 6em;
+  text-align: center;
+}
+.button__tarjeta--premium {
+  background-color: $ball-blue;
+  border: 0px solid;
+  color: $white;
+  font-weight: $bold;
+  padding: 0.5em 5em 0.5em 5em;
   text-align: center;
 }
 

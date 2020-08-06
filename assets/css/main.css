@@ -537,7 +537,17 @@ h3 {
   background-color: #2AB7CA;
   border: 0px solid;
   color: #FFF;
+  font-weight: 700;
   padding: 0.5em 6em 0.5em 6em;
+  text-align: center;
+}
+
+.button__tarjeta--premium {
+  background-color: #2AB7CA;
+  border: 0px solid;
+  color: #FFF;
+  font-weight: 700;
+  padding: 0.5em 5em 0.5em 5em;
   text-align: center;
 }
 
