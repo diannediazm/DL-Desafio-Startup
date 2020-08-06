@@ -32,18 +32,27 @@ h3 {
     padding: 0px;
   }
 
+  .nav__logo {
+    padding-left: 1em;
+  }
+
   .nav__menu {
-    display: none;
+    display: none !important;
   }
 
   .nav__buttons {
-    display: none;
+    display: none !important;
   }
 
   .header {
     position: relative !important;
     margin-top: 1em !important;
-    width: 100% !important;
+    width: 90% !important;
+    padding-left: 1em;
+  }
+
+  .bg-hero {
+    height: auto !important;
   }
 
   .tarjeta__free {
@@ -52,6 +61,7 @@ h3 {
 
   .precios {
     height: 1100px !important;
+    padding-left: 1em;
   }
 
   .grafico {
@@ -59,7 +69,7 @@ h3 {
   }
 
   .grafico__text {
-    width: 100% !important;
+    width: 90% !important;
     margin-left: 1em !important;
   }
 
@@ -379,6 +389,7 @@ h3 {
 
 .bg-hero {
   width: 100%;
+  padding-bottom: 5em;
 }
 
 .caracteristicas {
